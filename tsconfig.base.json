@@ -13,15 +13,20 @@
     "forceConsistentCasingInFileNames": true,
     "incremental": true,
     "composite": true,
-    "lib": ["esnext"],
+    "lib": [
+      "esnext"
+    ],
     "module": "CommonJS",
     "moduleResolution": "node",
-    "noImplicitThis":true,
+    "noImplicitThis": true,
     "outDir": "dist",
     "skipLibCheck": true,
     "strict": true,
     "strictNullChecks": true,
-    "target": "es6",
+    "target": "es6"
   },
-  "exclude": ["**/dist"]
+  "exclude": [
+    "**/dist",
+    "node_modules",
+  ]
 }
